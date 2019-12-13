@@ -1,0 +1,100 @@
+@media screen and (orientation:landscape) {
+    .box{
+        height: 100vh;
+        width: 100vh;
+    }
+}
+@media screen and (orientation:portrait) {
+    .box{
+        height: 100vw;
+        width: 100vw;
+    }
+}
+
+html body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  display: flex;
+}
+
+.p1 {
+  flex: 1;
+}
+
+.p2 {
+  flex: 2;
+}
+
+.p3 {
+  flex: 3;
+}
+
+.p4 {
+  flex: 4;
+}
+
+.p5 {
+  flex: 5;
+}
+
+.p6 {
+  flex: 6;
+}
+
+.p7 {
+  flex: 7;
+}
+
+.p8 {
+  flex: 8;
+}
+
+.p9 {
+  flex: 9;
+}
+
+.p10 {
+  flex: 10;
+}
+
+.bg {
+  background-color: #670067;
+}
+
+.hair {
+  background-color: #CD6634;
+}
+
+.hoody {
+  background-color: #016635;
+}
+
+.cord {
+  background-color: #CDCBCD;
+}
+
+.skin {
+  background-color: #FFCC9B;
+}
+
+.shadow {
+  background-color: #CE9968;
+}
+
+.shirt {
+  background-color: #FFFEFF;
+}
